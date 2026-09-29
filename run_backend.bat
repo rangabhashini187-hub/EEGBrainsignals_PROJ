@@ -11,5 +11,5 @@ if errorlevel 1 (
   echo   3. Or: turn off Smart App Control / add a Defender exclusion for site-packages
   echo.
 )
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python -m uvicorn main:app --reload --port 8000
